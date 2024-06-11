@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(esemka\ aku\ wak.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: transparent;
+    border: 2px solid rgba(152, 33, 33, 0.2);
+    backdrop-filter: blur(15px);
+    padding: 100px;
+    border-radius: 1%;
+    box-shadow: 0 0 10px rgba(67, 30, 30, 0.2);
+    text-align: top;
+}
+h1{
+    color: rgb(101, 23, 23);
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    color: rgb(101, 23, 23);
+    text-align: center;
+    font-size: larger;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.input-box{
+    text-align: center;
+    margin-bottom: 3%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-box input {
+    text-align: center;
+    width: 90%;
+    padding: 7px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    border-top: rgb(145, 216, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button[type="submit"]:hover{
+    background-color: #b4794e;
+}
+.btn{
+    border: 1px solid #fffffe;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: #fafafa;
+    background-color: #905937;
+    width: 53%;
+    height: 29px;
+    text-align: center;
+}
